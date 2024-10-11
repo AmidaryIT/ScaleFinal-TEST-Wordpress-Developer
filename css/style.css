@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+}
+footer {
+  background-color: #4d3227;
+}
+.navbar-custom {
+	background-color: #4d3227;
+}
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-toggler {
+	color: white;
+}
+.navbar-custom .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+	color: wheat;
+}
+.navbar-toggler{
+  background-color: white;
+}
+.navbar-toggler:hover{
+  background-color: wheat;
+}
+.navbar-toggler-icon {
+	color: #333333;
+}
+.btn{
+  background-color: white;
+  color: black;
+  border-color: wheat;
+}
+.btn:hover{
+  background-color: wheat;
+  border-color: black;
+  color: black;
+}
+.hero-logo{
+  font-weight: 500;
+}
+.popular-books .card {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+.popular-books .card:hover {
+  transform: scale(1);
+}
+.catalog .card {
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+.catalog .card:hover {
+  transform: scale(1);
+}
+.card-body{
+  background-color: wheat;
+}
+.contact-section{
+  height: 100%;
+}
